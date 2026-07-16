@@ -4,4 +4,13 @@ This branch will be the prime place for experimentation.
 
 Though the latest and optimized code will always be on main branch.
 
-<link: https://www.krishnakd.com> Button </link>
+> I can quote something with this ">" tag in readme file.
+
+> "The byproduct of discipline: becomes the regular things conducted." - Me
+
+**Double Stars symbol `**` makes the text bold.**
+
+Also the cap type symbol(above caps lock) gives a command thing I don't know the specific name but like that of `**` as above.
+
+For a url link we use parenthesis on word and square bracket to contain the link in that word.
+Eg. (This link will take you to initial page of this repository)[https://github.com/psyduck62/Fellowship-Files.git]
