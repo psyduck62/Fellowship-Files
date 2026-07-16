@@ -8,7 +8,7 @@ Though the latest and optimized code will always be on main branch.
 
 > "The byproduct of discipline: becomes the regular things conducted." - Me
 
-*Single `*` will make the text italic.*
+*Single `_` will make the text italic.*
 
 **Double Stars symbol `**` makes the text bold.**
 
@@ -16,5 +16,11 @@ Also the cap type symbol(above caps lock) gives a command thing I don't know the
 
 For a url link we use parenthesis on link and square bracket to contain word with the link in parenthesis.
 
-
 Eg. This [link](https://github.com/psyduck62/Fellowship-Files.git) will take you to the initial repository page when you opened it.
+
+At home I tried to create and merge a pull request I made from krishna branch and succeded.
+
+Right now the changes I made in README2.md file will not be mitigated in main branch, these last line i.e. onwards 22 line.
+Although I will be careful and try not to mitigate it through commenting while committing onto the krishna branch.
+
+> God bless me with success.<
