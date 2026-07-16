@@ -8,9 +8,11 @@ Though the latest and optimized code will always be on main branch.
 
 > "The byproduct of discipline: becomes the regular things conducted." - Me
 
+*Single `*` will make the text italic.*
+
 **Double Stars symbol `**` makes the text bold.**
 
 Also the cap type symbol(above caps lock) gives a command thing I don't know the specific name but like that of `**` as above.
 
 For a url link we use parenthesis on word and square bracket to contain the link in that word.
-Eg. (This link will take you to initial page of this repository)[https://github.com/psyduck62/Fellowship-Files.git]
+Eg. This (Link)[https://github.com/psyduck62/Fellowship-Files.git] will take you to the initial repository page when you opened it.
