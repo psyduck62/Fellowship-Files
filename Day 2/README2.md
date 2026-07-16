@@ -14,5 +14,7 @@ Though the latest and optimized code will always be on main branch.
 
 Also the cap type symbol(above caps lock) gives a command thing I don't know the specific name but like that of `**` as above.
 
-For a url link we use parenthesis on word and square bracket to contain the link in that word.
-Eg. This (Link)[https://github.com/psyduck62/Fellowship-Files.git] will take you to the initial repository page when you opened it.
+For a url link we use parenthesis on link and square bracket to contain word with the link in parenthesis.
+
+
+Eg. This [link](https://github.com/psyduck62/Fellowship-Files.git) will take you to the initial repository page when you opened it.
