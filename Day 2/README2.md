@@ -8,7 +8,7 @@ Though the latest and optimized code will always be on main branch.
 
 > "The byproduct of discipline: becomes the regular things conducted." - Me
 
-*Single `_` will make the text italic.*
+*Single `*` will make the text italic.*
 
 **Double Stars symbol `**` makes the text bold.**
 
