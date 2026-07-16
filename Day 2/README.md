@@ -1,6 +1,8 @@
 # Day 2
 
-Heavy Rainfall, got stuck for almost 45min in Thapathali because of rain.
+July 16, 2026 Thursday
+
+Heavy Rainfall in Kathmandu valley, I got stuck for almost 45min in Thapathali because of rain.
 WTF was that galli name, I forgot where the tampoo took a turn after crossing White Bridge of Baneshwor.
 
 Came late and joined the class. Almost at 05:20

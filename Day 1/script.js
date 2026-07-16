@@ -1,67 +1,67 @@
 //  alert ("This alert will be shown!")
 
-// const form = document.querySelector("form")
+const form = document.querySelector("form")
 
 
-// function onSubmit (e) {
-//     e.preventDefault();
-
-//     const name = document.querySelector("#name").value
-//     const expense = document.querySelector("#expense").value
-
-//     const ul = document.querySelector("ul")
-//     const li = document.createElement("li")
-//     li.innerText =  '${name} Rs {expense}'
-
-//     ul.appendChild(li)
-//     console.log(name, expense)
-//     alert("This won't work!")
-// }
-
-// form.addEventListener("submit", onSubmit)
-
-
-const form  = document.querySelector(".myForm");
-const amount = document.querySelector("#amount");
-const category = document.querySelector("#category");
-const description = document.querySelector("#description");
-const tbody = document.querySelector("tbody");
-
-//object
-//{ amount, category, description }
-
-form.addEventListener("submit",(e) => {
+function onSubmit (e) {
     e.preventDefault();
 
-    const row = document.createElement("tr");
+    const name = document.querySelector("#name").value
+    const expense = document.querySelector("#expense").value
 
-    row.innerHTML = `
-        <td>${category.value}</td>
-         <td>${description.value}</td>
-        <td>${amount.value}</td>
-        <td><button class="delbtn">Delete</button></td>
-    `;
-    // <tr> 
-            // <td>${category.value}</td>
-            // <td>${description.value}</td>
-            // <td>${amount.value}</td>
-    // </tr>
+    const ul = document.querySelector("ul")
+    const li = document.createElement("li")
+    li.innerText =  '${name} Rs {expense}'
 
-    tbody.appendChild(row);
+    ul.appendChild(li)
+    console.log(name, expense)
+    alert("This won't work!")
+}
 
-    const amountValue = amount.value;
+form.addEventListener("submit", onSubmit)
 
-    if (amountValue <= 0) {
-        alert("Amount must be greater than 0");
-        return;
-    }
 
-    amount.value = " ";
-    description.value = " ";
+// const form  = document.querySelector(".myForm");
+// const amount = document.querySelector("#amount");
+// const category = document.querySelector("#category");
+// const description = document.querySelector("#description");
+// const tbody = document.querySelector("tbody");
 
-    //element.addEventListener(event,callback)
-    const deleteBtn = row.querySelector(".delbtn");
-    deleteBtn.addEventListener("click",() => {
-        row.remove();
-    });
-});
+// //object
+// //{ amount, category, description }
+
+// form.addEventListener("submit",(e) => {
+//     e.preventDefault();
+
+//     const row = document.createElement("tr");
+
+//     row.innerHTML = `
+//         <td>${category.value}</td>
+//          <td>${description.value}</td>
+//         <td>${amount.value}</td>
+//         <td><button class="delbtn">Delete</button></td>
+//     `;
+//     // <tr> 
+//             // <td>${category.value}</td>
+//             // <td>${description.value}</td>
+//             // <td>${amount.value}</td>
+//     // </tr>
+
+//     tbody.appendChild(row);
+
+//     const amountValue = amount.value;
+
+//     if (amountValue <= 0) {
+//         alert("Amount must be greater than 0");
+//         return;
+//     }
+
+//     amount.value = " ";
+//     description.value = " ";
+
+//     //element.addEventListener(event,callback)
+//     const deleteBtn = row.querySelector(".delbtn");
+//     deleteBtn.addEventListener("click",() => {
+//         row.remove();
+//     });
+// });

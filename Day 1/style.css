@@ -34,7 +34,7 @@ div {
   color: red;
 } */
 
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -89,9 +89,9 @@ ul {
   padding: 0;
   margin-top: 20px;
   font-weight: 600;
-} */
+}
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -222,4 +222,4 @@ tr:hover {
 
 .delbtn:hover {
   background-color: #964b45;
-}
+} */
