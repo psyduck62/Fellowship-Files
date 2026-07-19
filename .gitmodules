@@ -1,0 +1,3 @@
+[submodule "From-there/Day-1-frontend"]
+	path = From-there/Day-1-frontend
+	url = https://github.com/locususer/Day-1-frontend.git
